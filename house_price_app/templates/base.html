@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+ <title>
+ {%block title%}
+ Hello World
+ {%endblock title%}
+ </title>
+ <meta charset="utf-8" />
+</head>
+<body>
+ {% block contents %}
+ <h1>Hello World</h1>
+ <p>Let's test UTF-8 with "päivää"</p>
+ <p> {{postcode}}</p>
+ {% endblock contents %}
+</body>
+</html>

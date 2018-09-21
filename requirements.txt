@@ -1,0 +1,13 @@
+Babel==2.6.0
+click==6.7
+Flask==1.0.2
+Flask-Babel==0.11.2
+Flask-SQLAlchemy==2.3.2
+Flask-Table==0.5.0
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pkg-resources==0.0.0
+pytz==2018.5
+SQLAlchemy==1.2.11
+Werkzeug==0.14.1

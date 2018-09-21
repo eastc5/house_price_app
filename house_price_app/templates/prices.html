@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{%block title%} Houses {%endblock title%}
+
+{% block contents %}
+    <h1> House price </h1>
+        <label for="postcode">Enter Postcode</label>
+        <form action = "/" method="post">
+        <input type = "text" name = "postcode" value = "{{ postcode }}"> <br />
+         <input type = "submit" value = "Submit">
+        </form>
+        {{table}}
+{% endblock contents %}
